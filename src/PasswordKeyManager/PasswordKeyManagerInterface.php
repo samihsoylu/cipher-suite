@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace SamihSoylu\CipherSuite;
+namespace SamihSoylu\CipherSuite\PasswordKeyManager;
 
 use Defuse\Crypto\Key;
 
-interface CipherSuiteInterface
+interface PasswordKeyManagerInterface
 {
     public function createProtectedKeyForDb(string $password): string;
 
