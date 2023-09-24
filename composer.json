@@ -1,9 +1,10 @@
 {
-    "name": "samihsoylu/cipher-suite",
+    "name": "samihsoylu/cipher-suite-php",
     "description": "A lightweight PHP wrapper for the Defuse PHP-Encryption library, designed to simplify key management, session key encoding, and data encryption/decryption. Ideal for developers looking for an easy-to-integrate cryptographic solution.",
     "type": "library",
     "require": {
-        "php": "^7.4|8.*",
+        "php": "^8.0",
+        "ext-openssl": "*",
         "defuse/php-encryption": "^2.4"
     },
     "license": "MIT",
